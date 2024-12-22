@@ -34,11 +34,15 @@ function ProfileCard() {
             <p className="text-lg text-indigo-950">Instructor</p>
           </div>
 
-          {/* Bio */}
-          <p className="text-gray-600 max-w-sm">
-            PhD candidate in Nanotechnology (Khazar University, Azerbaijan) MS
-            in Electronics (Seraj University, Iran)
-          </p>
+          <div>
+            {/* Bio */}
+            <p className="text-gray-600 max-w-sm">
+              PhD candidate in Nanotechnology (Khazar University, Azerbaijan)
+            </p>
+            <p className="text-gray-600 max-w-sm">
+              MS in Electronics (Seraj University, Iran)
+            </p>
+          </div>
 
           {/* Email Button */}
           <button
